@@ -1,0 +1,31 @@
+#seekbar{
+margin: 25px;
+width: 300px;
+}
+
+body, html{
+height: 100%;
+}
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+flex-direction: column;
+}
+.dark{
+background-color: black;
+}
+
+img{
+width: 250px;
+border-radius: 125px; 
+margin-top: 3px;
+}
+
+#button{
+padding: 0;
+background: none;
+border: none;
+}
+
