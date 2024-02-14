@@ -28,4 +28,21 @@ padding: 0;
 background: none;
 border: none;
 }
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 70px; /* šířka kolečka */
+  height: 70px; /* výška kolečka */
+  background: #4CAF50; /* barva kolečka */
+  cursor: pointer; /* změní kurzor na ukazovátko */
+  border-radius: 50%; /* kulatý tvar */
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 70px;
+  height: 70px;
+  background: #4CAF50;
+  cursor: pointer;
+  border-radius: 50%;
+}
 
