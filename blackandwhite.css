@@ -1,6 +1,6 @@
 #seekbar{
-margin: 25px;
-width: 300px;
+margin: 50px;
+width: 600px;
 }
 
 body, html{
@@ -18,8 +18,8 @@ background-color: black;
 }
 
 img{
-width: 250px;
-border-radius: 125px; 
+width: 700px;
+border-radius: 350px; 
 margin-top: 3px;
 }
 
